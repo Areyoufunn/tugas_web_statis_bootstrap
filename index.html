@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ifan Maulana Abi</title>
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS Lokal -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-terminal-fill text-primary me-2"></i>Ifan.dev
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Keahlian</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyek</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section text-white">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7 order-2 order-lg-1">
+                    <span class="badge bg-primary mb-3 px-3 py-2">Information Systems Student</span>
+                    <h1 class="display-4 fw-bold mb-3">Halo, Saya Ifan Maulana Abi</h1>
+                    <p class="lead text-light opacity-75 mb-4">
+                        Mahasiswa Sistem Informasi Telkom University Surabaya yang berfokus pada pengembangan aplikasi web, sistem jaringan komputer, dan otomasi perangkat IoT.
+                    </p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#projects" class="btn btn-primary btn-lg px-4">
+                            <i class="bi bi-folder2-open me-2"></i>Lihat Proyek
+                        </a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg px-4">Hubungi Saya</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center order-1 order-lg-2">
+                    <img src="assets/images/profile.svg" alt="Foto Profil Ifan Maulana Abi" class="img-fluid rounded-circle profile-img shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Bidang Keahlian</h2>
+                <p class="text-muted">Teknologi dan infrastruktur yang sering saya gunakan dalam pengembangan sistem</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3 card-hover">
+                        <div class="card-body">
+                            <div class="fs-1 text-primary mb-3"><i class="bi bi-code-slash"></i></div>
+                            <h5 class="card-title fw-bold">Web Development</h5>
+                            <p class="card-text text-muted">Membangun sistem informasi berbasis web menggunakan HTML5, CSS3, Bootstrap, JavaScript, PHP, dan database MySQL/MariaDB.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3 card-hover">
+                        <div class="card-body">
+                            <div class="fs-1 text-success mb-3"><i class="bi bi-hdd-network"></i></div>
+                            <h5 class="card-title fw-bold">Network & System Admin</h5>
+                            <p class="card-text text-muted">Konfigurasi server Linux (Debian), manajemen jaringan, routing, dan pemantauan infrastruktur operasional.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3 card-hover">
+                        <div class="card-body">
+                            <div class="fs-1 text-warning mb-3"><i class="bi bi-cpu"></i></div>
+                            <h5 class="card-title fw-bold">IoT & Automation</h5>
+                            <p class="card-text text-muted">Integrasi perangkat keras menggunakan Python, protokol Modbus RS485, serta automasi pencatatan data absensi biometrik.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Portofolio Proyek</h2>
+                <p class="text-muted">Beberapa proyek pengembangan perangkat lunak dan sistem yang telah dikerjakan</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm card-hover overflow-hidden">
+                        <img src="assets/images/project-pos.jpg" class="card-img-top project-img" alt="Sistem Point of Sale">
+                        <div class="card-body">
+                            <span class="badge bg-info text-dark mb-2">Web App & POS</span>
+                            <h5 class="card-title fw-bold">Sistem Point of Sale & Tracking</h5>
+                            <p class="card-text text-muted">Aplikasi kasir lokal dan manajemen transaksi terintegrasi database MySQL untuk operasional bisnis layanan spa.</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 pb-3">
+                            <small class="text-muted">PHP • MySQL • Bootstrap</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm card-hover overflow-hidden">
+                        <img src="assets/images/project-eduflow.jpg" class="card-img-top project-img" alt="EduFlow Micro-Learning">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">EdTech Platform</span>
+                            <h5 class="card-title fw-bold">EduFlow Micro-Learning</h5>
+                            <p class="card-text text-muted">Platform pembelajaran interaktif berbasis modul video singkat dengan evaluasi pemahaman mandiri untuk mahasiswa.</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 pb-3">
+                            <small class="text-muted">Web Frontend • AI Evaluation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm card-hover overflow-hidden">
+                        <img src="assets/images/project-iot.jpg" class="card-img-top project-img" alt="Biometric Attendance Sync">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Python Automation</span>
+                            <h5 class="card-title fw-bold">Biometric Attendance Sync</h5>
+                            <p class="card-text text-muted">Skrip automasi Python untuk menarik log kehadiran dan sinkronisasi data pengguna langsung dari mesin sidik jari jaringan.</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 pb-3">
+                            <small class="text-muted">Python • TCP/IP Socket</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm p-4">
+                        <h3 class="fw-bold text-center mb-3">Kirim Pesan</h3>
+                        <p class="text-muted text-center mb-4">Tertarik berdiskusi atau berkolaborasi dalam proyek pengembangan web?</p>
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Nama Lengkap</label>
+                                <input type="text" class="form-control" placeholder="Masukkan nama Anda" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Alamat Email</label>
+                                <input type="email" class="form-control" placeholder="nama@email.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Pesan</label>
+                                <textarea class="form-control" rows="3" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Kirim Pesan</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-1">&copy; 2026 Ifan Maulana Abi. Dibuat menggunakan Bootstrap 5.</p>
+            <small class="text-secondary">Praktikum Pengembangan Aplikasi Web - Telkom University Surabaya</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
